@@ -654,6 +654,26 @@ video {
   top: 250px;
 }
 
+.left-\[\]{
+  left: ;
+}
+
+.left-\[300px\]{
+  left: 300px;
+}
+
+.-right-\[3re\]{
+  right: -3re;
+}
+
+.-right-\[3\.5rem\]{
+  right: -3.5rem;
+}
+
+.-top-\[6rem\]{
+  top: -6rem;
+}
+
 .z-\[100\]{
   z-index: 100;
 }
@@ -668,6 +688,18 @@ video {
 
 .z-\[9\]{
   z-index: 9;
+}
+
+.-z-\[10\]{
+  z-index: -10;
+}
+
+.z-\[1\]{
+  z-index: 1;
+}
+
+.z-0{
+  z-index: 0;
 }
 
 .mx-auto{
@@ -790,6 +822,10 @@ video {
   height: 100%;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .min-h-\[15rem\]{
   min-height: 15rem;
 }
@@ -858,6 +894,26 @@ video {
   width: 100%;
 }
 
+.w-1{
+  width: 0.25rem;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[233\]{
+  width: 233;
+}
+
+.w-\[233px\]{
+  width: 233px;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
 .max-w-\[1080px\]{
   max-width: 1080px;
 }
@@ -903,6 +959,10 @@ video {
   cursor: pointer;
 }
 
+.cursor-help{
+  cursor: help;
+}
+
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -941,6 +1001,15 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
+.gap-x-4{
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1005,12 +1074,26 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .border{
   border-width: 1px;
 }
 
 .border-2{
   border-width: 2px;
+}
+
+.border-red-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.border-red-50{
+  --tw-border-opacity: 1;
+  border-color: rgb(254 242 242 / var(--tw-border-opacity));
 }
 
 .bg-\[\#181c2e\]{
@@ -1053,8 +1136,24 @@ video {
   background-color: rgb(11 114 231 / var(--tw-bg-opacity));
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[url\]{
+  background-color: url;
+}
+
 .bg-\[url\(\'\.\/img\/feature-section-2BG\.svg\'\)\]{
   background-image: url('./img/feature-section-2BG.svg');
+}
+
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+
+.bg-\[url\(\.\/img\/instant-settlement-bg\.svg\)\]{
+  background-image: url(./img/instant-settlement-bg.svg);
 }
 
 .bg-cover{
@@ -1203,12 +1302,26 @@ video {
   line-height: 1.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
 
 .font-extrabold{
   font-weight: 800;
+}
+
+.font-extralight{
+  font-weight: 200;
 }
 
 .leading-10{
@@ -1225,6 +1338,26 @@ video {
 
 .leading-\[1\.2\]{
   line-height: 1.2;
+}
+
+.leading-\[\]{
+  line-height: ;
+}
+
+.leading-\[3\]{
+  line-height: 3;
+}
+
+.leading-\[3\.37\]{
+  line-height: 3.37;
+}
+
+.leading-\[3\.375rem\]{
+  line-height: 3.375rem;
+}
+
+.leading-normal{
+  line-height: 1.5;
 }
 
 .text-deepbluehead{
@@ -1262,8 +1395,34 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-deepblue{
+  --tw-text-opacity: 1;
+  color: rgb(2 4 42 / var(--tw-text-opacity));
+}
+
 .opacity-70{
   opacity: 0.7;
+}
+
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-red-200{
+  --tw-shadow-color: #fecaca;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-800{
+  --tw-shadow-color: #991b1b;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-black{
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .transition-all{
@@ -1280,6 +1439,28 @@ video {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-105:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-\[\]:hover{
+  background-color: ;
+}
+
+.hover\:bg-\[url\]:hover{
+  background-color: url;
+}
+
+.hover\:bg-\[url\(\)\]:hover{
+  background-image: url();
+}
+
+.hover\:bg-\[url\(\.\/img\/instant-settlement-bghover\.svg\)\]:hover{
+  background-image: url(./img/instant-settlement-bghover.svg);
 }
 
 .hover\:text-lightblue:hover{
